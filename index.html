@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+  <button onclick="toggleMenu()">☰</button>
+  <a href="index.html"><img src="/img/leon-png.png" alt="" class="logo"></a>
+  <!-- Menu mobile -->
+  <div id="sideNav" class="sidenav">
+    <ul class="menu">
+      <li><a href="#home" onclick="menusection("home")">Home</a></li>
+      <li><a href="#sobre" onclick="menusection("sobre")">Sobre</a></li>
+      <li><a href="#serviços" onclick="menusection("serviços")">Serviços</a></li>
+      <li><a href="#contato" onclick="menusection("contato")">Contato</a></li>
+    </ul>
+  </div>
+  </header>
+    <!-- Conteúdo das seções -->
+    <section>
+  <div id="home" class="conteudo">
+    <h2>Home</h2>
+    <p>Conteúdo da seção Home...</p>
+  </div>
+  <div id="sobre" class="conteudo">
+    <h2>Sobre</h2>
+    <p>Conteúdo da seção Sobre...</p>
+  </div>
+  <div id="serviços" class="conteudo">
+    <h2>Serviços</h2>
+    <p>Conteúdo da seção Serviços...</p>
+  </div>
+  <div id="contato" class="conteudo">
+    <h2>Contato</h2>
+    <p>Conteúdo da seção Contato...</p>
+  </div>
+    </section>
+
+  <script src="main.js"></script>
+</body>
+</html>
